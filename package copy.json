@@ -1,0 +1,24 @@
+{
+  "name": "b2306598_backend1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Nguyen Minh Tuan",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.10.0",
+    "eslint-config-prettier": "^10.1.8",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.6"
+  }
+}
